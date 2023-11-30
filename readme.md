@@ -11,5 +11,39 @@ The goal of this project is to automate the testing of the justjoin.it website, 
 - **JavaScript:** The test scripts are written in JavaScript, making it accessible to a wide range of developers.
 
 
+## Installation
+
+Clone the project
+
+```bash
+  git clone https://github.com/patrisp/cypress-portfolio.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install cypress --save-dev
+  npm install --save-dev cypress-cucumber-preprocessor
+```
+
+## Test running
+
+Run all tests in headless mode
+
+```bash
+  npm run cy:run
+```
+Run only the test teardown
+
+```bash
+  npm run cy:teardown
+```
+
 
 
