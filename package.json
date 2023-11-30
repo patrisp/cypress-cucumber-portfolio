@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run --spec \"**/!(teardown.feature)\"",
+    "cy:teardown": "cypress run --spec \"cypress/e2e/teardown.feature\""
   },
   "keywords": [],
   "author": "Patrycja Pawlowska",
