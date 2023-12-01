@@ -88,5 +88,3 @@ Then('I am logged in', () => {
     cy.url().should('eq', URL.PROFILE_URL + '/profile');
     cy.get('.MuiTypography-h4').should('contain', 'My profile');
 });
-
-
